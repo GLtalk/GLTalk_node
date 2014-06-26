@@ -1,0 +1,14 @@
+{
+	"keyPrefix" : "ck:",
+	"groupNum" : 100,
+	"redisList" : {
+		"r1" : {"host" : "192.168.16.241", "port" : 6380, "option" : {"auth_pass" : "microlens", "connect_timeout" : 3000}},
+		"r2" : {"host" : "192.168.16.241", "port" : 6380, "option" : {"auth_pass" : "microlens", "connect_timeout" : 3000}},
+		"r3" : {"host" : "192.168.16.241", "port" : 6380, "option" : {"auth_pass" : "microlens", "connect_timeout" : 3000}}
+	},
+	"groupList" : {
+		"r1" : [0, 33],
+		"r2" : [34, 66],
+		"r3" : [67, 99]
+	}
+}

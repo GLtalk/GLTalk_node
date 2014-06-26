@@ -1,0 +1,17 @@
+{
+	"root" : "/usr/local/cookie_server/logs",
+	"loggers" : [
+			{
+				"name"           : "deliver",
+				"logFilePattern" : "deliver-%s.log",
+				"datePattern"    : "yyyyMMdd-HHmm",
+				"interval"       : 1200
+			},
+			{
+				"name"           : "click",
+				"logFilePattern" : "click-%s.log",
+				"datePattern"    : "yyyyMMdd-hh",
+				"interval"       : 3600
+			}
+	]
+}

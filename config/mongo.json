@@ -1,0 +1,13 @@
+{
+	"cookieTableNamePrefix" : "cookie_",
+	"mongoList" : {
+		"m1" : {"host" : "192.168.16.241", "port" : 27017, "db" : "cookieServer", "user" : "cookie", "pass" : "cookie"},
+		"m2" : {"host" : "192.168.16.241", "port" : 27017, "db" : "cookieServer", "user" : "cookie", "pass" : "cookie"},
+		"m3" : {"host" : "192.168.16.241", "port" : 27017, "db" : "cookieServer", "user" : "cookie", "pass" : "cookie"}
+	},
+	"groupList" : {
+		"m1" : ["r3"],
+		"m2" : ["r2"],
+		"m3" : ["r1"]
+	}
+}

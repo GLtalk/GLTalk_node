@@ -1,0 +1,6 @@
+{
+	"masterPackage":"/base/master/*/controller",
+	"workerPackage":"/base/worker/*/controller",
+	"masterPort":3001,
+	"workerPort":3000
+}
